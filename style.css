@@ -1,0 +1,37 @@
+:root {
+    --bg-light: #fff;
+    --bg-dark: #222;
+    --text-light: #e6e6e6;
+    --text-dark: #000;
+}
+
+.dark {
+    --bg-color: var(--bg-dark);
+    --text-color: var(--text-dark);
+    background-color: var(--bg-color);
+    color: var(--text-light);
+}
+
+.light {
+    --bg-color: var(--bg-light);
+    --text-color: var(--text-light);
+    background-color: var(--bg-color);
+    color: var(--text-light);
+}
+
+body {
+    padding: 200px;
+    text-align: center;
+}
+
+h1 {
+    color: #bb25b3;
+    margin-top: 30px;
+}
+
+button {
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 8px;
+}
